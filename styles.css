@@ -3,3 +3,20 @@
     height:200px;
     width:200px;
 }
+.word{
+    font-family: 'Syncopate', sans-serif;
+    text-align:center;
+    font-size: 75px;
+}
+*{
+    justify-content: center;
+    padding: 10px;
+}
+#row1{
+    display: flex;
+    flex:wrap;
+}
+#row2{
+    display: flex;
+    flex: wrap;
+}

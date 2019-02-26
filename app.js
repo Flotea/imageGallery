@@ -42,7 +42,7 @@ function imageChange3(){
 document.getElementById("btn3").addEventListener("click", imageChange3);
 
 
-var  imageArray4 = ["Assets/thorn.png", "sunset.jpg"];
+var  imageArray4 = ["Assets/thorn.png", "Assets/Sunset.png"];
 var img4 = document.getElementById("imgthing4")
 function imageChange4(){
     if(i==1){
