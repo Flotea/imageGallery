@@ -1,16 +1,50 @@
-
+body{
+    background-image:url("Assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .images{
     height:200px;
     width:200px;
+    border-radius:20%;
+    padding-bottom: 10px;
 }
 .word{
     font-family: 'Syncopate', sans-serif;
     text-align:center;
     font-size: 75px;
+    color: white;
+    background-color: pink;
+    border-top: solid 1px rgb(80, 51, 56);
+    border-bottom: solid 1px rgb(80, 51, 56);  
+
+    
+}
+#everything{
+        background-color:#f8e9d6;
+        margin-right:20%;
+        margin-left:20%;
+        padding-bottom: 20px;
+        border: dashed 5px rgb(80, 51, 56);
 }
 *{
     justify-content: center;
+
+}
+.btns{
+    background-color: pink;
+    font-family: 'Syncopate', sans-serif;
+    text-align:center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 20%;
+}
+.galbox{
+    display:flex;
+    flex-direction:column;
     padding: 10px;
+
 }
 #row1{
     display: flex;
